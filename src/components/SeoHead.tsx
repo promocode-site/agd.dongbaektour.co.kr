@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { Head } from "vite-react-ssg";
 
 interface SeoHeadProps {
   title: string;
@@ -13,7 +13,7 @@ const SeoHead = ({ title, description, path, schema }: SeoHeadProps) => {
   const url = `${DOMAIN}${path}`;
 
   return (
-    <Helmet>
+    <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={url} />
@@ -23,7 +23,7 @@ const SeoHead = ({ title, description, path, schema }: SeoHeadProps) => {
       {schema && (
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       )}
-    </Helmet>
+    </Head>
   );
 };
 
