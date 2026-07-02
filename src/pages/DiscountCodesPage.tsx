@@ -123,7 +123,7 @@ const DiscountCodesPage = () => {
               <p><strong>할인코드:</strong> LP12AGD2</p>
               <p><strong>특징:</strong> 기존 할인에 중복 적용 가능</p>
               <p><strong>대상:</strong> 신규/기존 회원 모두</p>
-              <p><strong>유효기간:</strong> 6월 30일까지</p>
+              <p><strong>유효기간:</strong> 7월 30일까지</p>
               <p><strong>플랫폼:</strong> PC/모바일 웹 전용</p>
             </div>
             <div className="bg-success/10 border border-success/30 rounded-lg p-3 text-xs text-muted-foreground mb-4">
@@ -140,7 +140,7 @@ const DiscountCodesPage = () => {
               <span className="info-badge bg-primary text-primary-foreground">5%</span>
             </div>
             <div className="text-sm text-muted-foreground mb-4">
-              <p>한국 내 모든 숙소 대상 · 6월 30일까지 · 웹 전용</p>
+              <p>한국 내 모든 숙소 대상 · 7월 30일까지 · 웹 전용</p>
             </div>
             <CtaButton text="국내숙소 5% 할인 →" className="w-full sm:w-auto" />
           </article>
