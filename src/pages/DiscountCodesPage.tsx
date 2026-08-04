@@ -17,7 +17,7 @@ const schema = {
   "url": "https://agd.dongbaektour.co.kr/discount-codes",
   "publisher": { "@type": "Organization", "name": "아고다 할인코드" },
   "datePublished": "2026-06-07",
-  "dateModified": "2026-06-07"
+  "dateModified": "2026-08-04"
 };
 
 const DiscountCodesPage = () => {
@@ -123,7 +123,7 @@ const DiscountCodesPage = () => {
               <p><strong>할인코드:</strong> LP12AGD2</p>
               <p><strong>특징:</strong> 기존 할인에 중복 적용 가능</p>
               <p><strong>대상:</strong> 신규/기존 회원 모두</p>
-              <p><strong>유효기간:</strong> 7월 30일까지</p>
+              <p><strong>유효기간:</strong> 8월 31일까지</p>
               <p><strong>플랫폼:</strong> PC/모바일 웹 전용</p>
             </div>
             <div className="bg-success/10 border border-success/30 rounded-lg p-3 text-xs text-muted-foreground mb-4">
@@ -140,7 +140,7 @@ const DiscountCodesPage = () => {
               <span className="info-badge bg-primary text-primary-foreground">5%</span>
             </div>
             <div className="text-sm text-muted-foreground mb-4">
-              <p>한국 내 모든 숙소 대상 · 7월 30일까지 · 웹 전용</p>
+              <p>한국 내 모든 숙소 대상 · 8월 31일까지 · 웹 전용</p>
             </div>
             <CtaButton text="국내숙소 5% 할인 →" className="w-full sm:w-auto" />
           </article>
@@ -154,7 +154,7 @@ const DiscountCodesPage = () => {
               <p><strong>할인코드:</strong> LP10AGD2</p>
               <p><strong>대상:</strong> 한국 내 모든 숙소</p>
               <p><strong>최대 할인:</strong> $25</p>
-              <p><strong>예약 기간:</strong> 2026.06.01~06.30</p>
+              <p><strong>예약 기간:</strong> 2026.08.01~08.31</p>
               <p><strong>숙박 기간:</strong> ~2027.03.31</p>
               <p><strong>플랫폼:</strong> PC/모바일 웹 전용</p>
             </div>
@@ -276,10 +276,10 @@ const DiscountCodesPage = () => {
 
         <div className="space-y-4">
           {[
-            { card: "삼성카드", rate: "전 지역 7% / 인니·말레이·이탈리아 10%", period: "~2026.6.30", method: "삼성카드 전용 페이지에서 접속 후 결제", notes: "LINK 혜택 또는 전용 예약 페이지 필수. 삼성페이 이용 시 할인 제외될 수 있음" },
-            { card: "신한카드", rate: "전 지역 7% / 인니·말레이·이탈리아 10%", period: "~2026.6.30", method: "신한카드 전용 페이지 접속 → 자동 적용", notes: "선착순, 선결제 상품" },
-            { card: "우리카드", rate: "전 지역 7% / 특정 지역 10%", period: "~2026.6.30", method: "전용 페이지 접속 → 핀번호 입력 시 자동", notes: "'선결제', '지금 결제하기' 객실 유형만" },
-            { card: "NH농협카드", rate: "전 지역 7% / 말레이·스페인·이탈리아 10%", period: "~2026.6.30", method: "NH농협 전용 페이지 접속 → 선결제", notes: "신용카드, 체크카드 모두 가능. 최대 20%까지" },
+            { card: "삼성카드", rate: "전 지역 7% / 인니·말레이·이탈리아 10%", period: "~2026.8.31", method: "삼성카드 전용 페이지에서 접속 후 결제", notes: "LINK 혜택 또는 전용 예약 페이지 필수. 삼성페이 이용 시 할인 제외될 수 있음" },
+            { card: "신한카드", rate: "전 지역 7% / 인니·말레이·이탈리아 10%", period: "~2026.8.31", method: "신한카드 전용 페이지 접속 → 자동 적용", notes: "선착순, 선결제 상품" },
+            { card: "우리카드", rate: "전 지역 7% / 특정 지역 10%", period: "~2026.8.31", method: "전용 페이지 접속 → 핀번호 입력 시 자동", notes: "'선결제', '지금 결제하기' 객실 유형만" },
+            { card: "NH농협카드", rate: "전 지역 7% / 말레이·스페인·이탈리아 10%", period: "~2026.8.31", method: "NH농협 전용 페이지 접속 → 선결제", notes: "신용카드, 체크카드 모두 가능. 최대 20%까지" },
             { card: "KB국민카드", rate: "최대 10%", period: "월별 갱신", method: "KB국민카드 전용 페이지 접속 후 결제", notes: "매월 프로모션 조건 갱신" },
             { card: "하나카드", rate: "최대 10%", period: "월별 갱신", method: "하나카드 전용 페이지 접속 후 결제", notes: "제이드클래식 보유 시 공항 라운지 무료 추가 혜택" },
             { card: "토스뱅크 체크카드", rate: "전 세계 7% / 한국·태국·베트남 10%", period: "~2028.8.31", method: "결제 즉시 자동 할인 적용", notes: "체크카드도 높은 할인율! 매우 긴 프로모션 기간" },
