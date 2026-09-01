@@ -35,7 +35,7 @@ const HomePage = () => {
     <>
       <SeoHead
         title="아고다 카드할인"
-        description="8월 아고다 카드할인 총정리! 카카오페이, 카드사 할인부터 아고다 할인링크, 카카오페이 등 다양한 혜택들이 업데이트 되었습니다. 일본, 국내에서 사용 가능한 할인코드도 한 눈에. 최대 혜택 받고 예약하세요!"
+        description="9월 아고다 카드할인 총정리! 카카오페이, 카드사 할인부터 아고다 할인링크, 카카오페이 등 다양한 혜택들이 업데이트 되었습니다. 일본, 국내에서 사용 가능한 할인코드도 한 눈에. 최대 혜택 받고 예약하세요!"
         path="/"
         schema={homeSchema}
       />
@@ -149,7 +149,7 @@ const HomePage = () => {
               <p><strong>할인코드:</strong> LP12AGD2</p>
               <p><strong>특징:</strong> 기존 할인에 중복 적용 가능</p>
               <p><strong>대상:</strong> 신규/기존 회원 모두</p>
-              <p><strong>유효기간:</strong> 8월 31일까지</p>
+              <p><strong>유효기간:</strong> 9월 30일까지</p>
               <p><strong>플랫폼:</strong> PC/모바일 웹 전용</p>
             </div>
             <div className="bg-success/10 border border-success/30 rounded-lg p-3 text-xs text-muted-foreground mb-4">
@@ -170,7 +170,7 @@ const HomePage = () => {
               <span className="info-badge bg-primary text-primary-foreground">5%</span>
             </div>
             <div className="text-sm text-muted-foreground mb-4">
-              <p>한국 내 모든 숙소 대상 · 8월 31일까지 · 웹 전용</p>
+              <p>한국 내 모든 숙소 대상 · 9월 30일까지 · 웹 전용</p>
             </div>
             <CtaButton text="국내숙소 5% 할인 →" className="w-full sm:w-auto" />
               </div>
@@ -186,7 +186,7 @@ const HomePage = () => {
               <p><strong>할인코드:</strong> LP10AGD2</p>
               <p><strong>대상:</strong> 한국 내 모든 숙소</p>
               <p><strong>최대 할인:</strong> $25</p>
-              <p><strong>예약 기간:</strong> 2026.08.01~08.31</p>
+              <p><strong>예약 기간:</strong> 2026.09.01~09.30</p>
               <p><strong>숙박 기간:</strong> ~2027.03.31</p>
               <p><strong>플랫폼:</strong> PC/모바일 웹 전용</p>
             </div>
@@ -368,10 +368,10 @@ const HomePage = () => {
 
         <div className="space-y-4">
           {[
-            { card: "삼성카드", rate: "전 지역 7% / 인니·말레이·이탈리아 10%", period: "~2026.8.31", method: "삼성카드 전용 페이지에서 접속 후 결제", notes: "LINK 혜택 또는 전용 예약 페이지 필수. 삼성페이 이용 시 할인 제외될 수 있음" },
-            { card: "신한카드", rate: "전 지역 7% / 인니·말레이·이탈리아 10%", period: "~2026.8.31", method: "신한카드 전용 페이지 접속 → 자동 적용", notes: "선착순, 선결제 상품" },
-            { card: "우리카드", rate: "전 지역 7% / 특정 지역 10%", period: "~2026.8.31", method: "전용 페이지 접속 → 핀번호 입력 시 자동", notes: "'선결제', '지금 결제하기' 객실 유형만" },
-            { card: "NH농협카드", rate: "전 지역 7% / 말레이·스페인·이탈리아 10%", period: "~2026.8.31", method: "NH농협 전용 페이지 접속 → 선결제", notes: "신용카드, 체크카드 모두 가능. 최대 20%까지" },
+            { card: "삼성카드", rate: "전 지역 7% / 인니·말레이·이탈리아 10%", period: "~2026.9.30", method: "삼성카드 전용 페이지에서 접속 후 결제", notes: "LINK 혜택 또는 전용 예약 페이지 필수. 삼성페이 이용 시 할인 제외될 수 있음" },
+            { card: "신한카드", rate: "전 지역 7% / 인니·말레이·이탈리아 10%", period: "~2026.9.30", method: "신한카드 전용 페이지 접속 → 자동 적용", notes: "선착순, 선결제 상품" },
+            { card: "우리카드", rate: "전 지역 7% / 특정 지역 10%", period: "~2026.9.30", method: "전용 페이지 접속 → 핀번호 입력 시 자동", notes: "'선결제', '지금 결제하기' 객실 유형만" },
+            { card: "NH농협카드", rate: "전 지역 7% / 말레이·스페인·이탈리아 10%", period: "~2026.9.30", method: "NH농협 전용 페이지 접속 → 선결제", notes: "신용카드, 체크카드 모두 가능. 최대 20%까지" },
             { card: "KB국민카드", rate: "최대 10%", period: "월별 갱신", method: "KB국민카드 전용 페이지 접속 후 결제", notes: "매월 프로모션 조건 갱신" },
             { card: "하나카드", rate: "최대 10%", period: "월별 갱신", method: "하나카드 전용 페이지 접속 후 결제", notes: "제이드클래식 보유 시 공항 라운지 무료 추가 혜택" },
             { card: "토스뱅크 체크카드", rate: "전 세계 7% / 한국·태국·베트남 10%", period: "~2028.8.31", method: "결제 즉시 자동 할인 적용", notes: "체크카드도 높은 할인율! 매우 긴 프로모션 기간" },
@@ -415,14 +415,14 @@ const HomePage = () => {
               <h3 className="font-bold text-lg mb-2">네이버페이</h3>
               <span className="info-badge bg-warning text-warning-foreground mb-3">11% 할인</span>
               <p className="text-sm text-muted-foreground mb-1">국내·해외 11% 할인 · 최대 100 USD</p>
-              <p className="text-sm text-muted-foreground mb-4">예약 6.1~6.30 / 투숙 ~8.31 · 전용 페이지 결제</p>
+              <p className="text-sm text-muted-foreground mb-4">예약 6.1~6.30 / 투숙 ~9.30 · 전용 페이지 결제</p>
               <CtaButton text="네이버페이 할인 →" className="w-full text-sm py-2" href="https://www.agoda.com/ko-kr/naverpaypromo?cid=1963008&tag=A100692912" />
             </article>
             <article className="discount-card">
               <h3 className="font-bold text-lg mb-2">토스페이</h3>
               <span className="info-badge bg-warning text-warning-foreground mb-3">11% 할인</span>
               <p className="text-sm text-muted-foreground mb-1">국내·해외 11% 할인 · 최대 100 USD</p>
-              <p className="text-sm text-muted-foreground mb-4">예약 6.1~6.30 / 투숙 ~8.31 · 전용 페이지 결제</p>
+              <p className="text-sm text-muted-foreground mb-4">예약 6.1~6.30 / 투숙 ~9.30 · 전용 페이지 결제</p>
               <CtaButton text="토스페이 할인 →" className="w-full text-sm py-2" href="https://www.agoda.com/ko-kr/tosspaypromo?cid=1963016&tag=A100692912" />
             </article>
             <article className="discount-card">
@@ -463,9 +463,9 @@ const HomePage = () => {
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">현재 진행 중인 프로모션</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { name: "더블데이 세일", desc: "프로모션 대상 숙소 15% 추가 할인", period: "~8월 11일", badge: "HOT" },
-              { name: "타이페이 나이스 스테이", desc: "대만 타이페이 숙소 최대 23% 할인", period: "~8월 31일", badge: "NEW" },
-              { name: "엘리트 이스케이프", desc: "두바이, 방콕, 푸켓 럭셔리 숙소 최대 40% 할인", period: "~8월 31일", badge: "럭셔리" },
+              { name: "더블데이 세일", desc: "프로모션 대상 숙소 15% 추가 할인", period: "~9월 11일", badge: "HOT" },
+              { name: "타이페이 나이스 스테이", desc: "대만 타이페이 숙소 최대 23% 할인", period: "~9월 30일", badge: "NEW" },
+              { name: "엘리트 이스케이프", desc: "두바이, 방콕, 푸켓 럭셔리 숙소 최대 40% 할인", period: "~9월 30일", badge: "럭셔리" },
               { name: "국내숙소 프로모션", desc: "국내 호텔 최대 25% 할인", period: "상시", badge: "상시" },
             ].map((promo, i) => (
               <article key={i} className="discount-card flex flex-col sm:flex-row gap-4 items-start">
