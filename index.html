@@ -28,11 +28,20 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "https://agd.dongbaektour.co.kr/#organization",
+      "name": "아고다 카드할인",
+      "url": "https://agd.dongbaektour.co.kr/"
+    },
+    {
       "@type": "WebSite",
       "@id": "https://agd.dongbaektour.co.kr/#website",
       "url": "https://agd.dongbaektour.co.kr/",
       "name": "아고다 카드할인",
-      "inLanguage": "ko-KR"
+      "inLanguage": "ko-KR",
+      "publisher": {
+        "@id": "https://agd.dongbaektour.co.kr/#organization"
+      }
     },
     {
       "@type": "WebPage",
@@ -44,13 +53,16 @@
       "isPartOf": {
         "@id": "https://agd.dongbaektour.co.kr/#website"
       },
-      "datePublished": "2026-09-21",
-      "dateModified": "2026-09-21",
+      "datePublished": "2026-04-07T17:17:49+09:00",
+      "dateModified": "2026-09-27T17:46:00+09:00",
       "breadcrumb": {
         "@id": "https://agd.dongbaektour.co.kr/#breadcrumb"
       },
       "mainEntity": {
         "@id": "https://agd.dongbaektour.co.kr/#codelist"
+      },
+      "publisher": {
+        "@id": "https://agd.dongbaektour.co.kr/#organization"
       }
     },
     {
@@ -766,7 +778,39 @@
   </div>
 
 </section>
-  </main>
+  
+<!-- ===== 아고다 카드할인 업데이트 내역 ===== -->
+<section class="upd-log" id="update-log" aria-labelledby="upd-log-title" style="--upd-c:#1B64DA;--upd-rgb:27,100,218">
+  <div class="upd-log-head">
+    <h2 class="upd-log-title" id="upd-log-title">아고다 카드할인 업데이트 내역</h2>
+    <p class="upd-log-last">최종 업데이트 <time datetime="2026-09-27">2026.09.27</time></p>
+  </div>
+  <ol class="upd-log-list">
+    <li><time datetime="2026-09-23">2026.09.23</time><p>카드 할인율 갱신: 마스터카드 최대 15%→월드 엘리트 16%·월드 12%·일반 8%, 비자카드 6%→7%, 유니온페이 UPI12 추가, 현대카드 추가 / 할인코드 AGODASPONSORED·AGODASALE 추가</p></li>
+    <li><time datetime="2026-09-01">2026.09.01</time><p>할인코드와 삼성·신한·우리·NH농협카드 할인 기간 9월 30일까지로 연장, 네이버페이·토스페이 투숙 9월 30일까지로 연장</p></li>
+    <li><time datetime="2026-08-04">2026.08.04</time><p>할인코드와 삼성·신한·우리·NH농협카드 할인 기간 8월 31일까지로 연장, 더블데이 세일·타이페이·엘리트 이스케이프 이벤트 8월로 갱신</p></li>
+    <li><time datetime="2026-07-02">2026.07.02</time><p>할인코드 유효기간 7월 30일까지로 연장, 더블데이 세일·타이페이 나이스 스테이 등 이벤트 7월로 갱신</p></li>
+    <li><time datetime="2026-06-01">2026.06.01</time><p>국내 10% 할인코드 LP10AGD2 추가, COUDAL·LP12AGD2 코드 표기, 네이버페이·토스페이 11% 할인 추가, 삼성카드 할인 6월 30일까지 연장</p></li>
+    <li><time datetime="2026-04-25">2026.04.25</time><p>할인코드 유효기간과 타이페이 나이스 스테이 이벤트 5월 31일까지로 연장</p></li>
+  </ol>
+</section>
+<style>
+.upd-log{max-width:780px;margin:32px auto;padding:28px 20px 24px;box-sizing:border-box;word-break:keep-all;text-align:left;background:#fff;color:#1f2328;border-radius:18px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+@media (max-width:820px){.upd-log{margin:24px 16px}}
+.upd-log *{box-sizing:border-box}
+.upd-log :where(h2,p,ol,li){margin:0;padding:0}
+.upd-log-head{text-align:center;margin-bottom:16px}
+.upd-log-title{font-size:22px;font-weight:800;letter-spacing:-.02em;line-height:1.35;color:inherit}
+.upd-log-last{margin-top:8px;font-size:13px;opacity:.75}
+.upd-log-last time{font-weight:800;color:var(--upd-c);opacity:1}
+.upd-log-list{list-style:none;background:rgba(var(--upd-rgb),.05);border:1px solid rgba(var(--upd-rgb),.18);border-radius:14px;padding:4px 18px}
+.upd-log-list li{display:flex;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid rgba(var(--upd-rgb),.14)}
+.upd-log-list li:first-child{border-top:0}
+.upd-log-list time{flex:0 0 auto;font:800 12.5px/1.6 ui-monospace,Menlo,Consolas,monospace;color:var(--upd-c)}
+.upd-log-list p{font-size:14px;line-height:1.6}
+@media (max-width:640px){.upd-log-title{font-size:19px}.upd-log-list li{flex-direction:column;gap:2px}}
+</style>
+</main>
 
   <!-- ===== 푸터 ===== -->
   <footer class="dbw-footer">
